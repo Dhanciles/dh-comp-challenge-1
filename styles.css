@@ -1,0 +1,62 @@
+/* Applied througout webpage */
+body {
+  box-sizing: border-box;
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr); 
+  height: 100%;
+  width: 100%; 
+  margin: 0;
+  color: #ffffff;
+}
+
+/* Boxes that allow youu to access portfolio content */
+main {
+  grid-column: 1 / 4; 
+  grid-row: 1 / 4;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bio-box {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  background-color: green;
+  height: 200px;
+  width: 400px;
+}
+
+.site-box {
+  height: 200px;
+  width: 200px;
+}
+
+.profile {
+  background-color: orange; 
+}
+
+.experience {
+  background-color: blue;
+}
+
+.education {
+  background-color: red; 
+}
+
+.blog {
+  background-color: purple; 
+}
+
+.social-menu {
+  background-color: yellow; 
+  color: #000000;
+}
+
+.contact {
+  background-color: #d4d5d7;
+}
+
+.portfolio {
+  background-color: #4fbdee; 
+}
