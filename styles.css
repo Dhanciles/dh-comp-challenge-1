@@ -4,59 +4,55 @@ body {
   display: grid; 
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr); 
-  height: 100%;
-  width: 100%; 
-  margin: 0;
+  grid-template-areas: 
+  "grid1 grid1 grid2 grid3 grid3"
+  "grid4 grid5 grid6 grid3 grid3"
+  "grid7 grid8 grid9 grid3 grid3";
+  height: 100vh;
+  background-color: #d4d5d7; 
   color: #ffffff;
 }
 
-/* Boxes that allow youu to access portfolio content */
-main {
-  grid-column: 1 / 4; 
-  grid-row: 1 / 4;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.bio-box {
+/* Boxes that allow you to access portfolio content */
+.grid1 {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   background-color: green;
-  height: 200px;
-  width: 400px;
 }
 
-.site-box {
-  height: 200px;
-  width: 200px;
-}
-
-.profile {
+.grid2 {
   background-color: orange; 
 }
 
-.experience {
+.grid4 {
   background-color: blue;
 }
 
-.education {
+.grid5 {
   background-color: red; 
 }
 
-.blog {
+.grid6 {
   background-color: purple; 
 }
 
-.social-menu {
+.grid7 {
   background-color: yellow; 
   color: #000000;
 }
 
-.contact {
+.grid8 {
   background-color: #d4d5d7;
 }
 
-.portfolio {
+.grid9 {
   background-color: #4fbdee; 
 }
+
+/* Profile Image Section */
+.grid3 {
+  grid-column: 4 / 6;
+  grid-row: 1 / 4; 
+  background-color: #000000; 
+}
+
