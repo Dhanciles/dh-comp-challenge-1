@@ -11,7 +11,19 @@ body {
   height: 100vh;
   background-color: #d4d5d7; 
   color: #ffffff;
+  font-family: 'Nunito', sans-serif; 
 }
+
+article {
+  cursor: pointer;
+}
+ h1 {
+  font-weight: 800; 
+ }
+
+ p {
+  font-weight: 400; 
+ }
 
 /* Boxes that allow you to access portfolio content */
 .grid1 {
@@ -48,14 +60,35 @@ body {
   background-color: #9bdbf7; 
 }
 
+.site-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .bio-box {
+  display: flex;
+  flex-direction: column; 
+  padding-left: 3rem; 
+ }
+
 /* Site Box Icons */
 .bio-box-icons {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 0.8rem;
+  width: 0.8rem;
 }
 
 .bio-box-buttons {
   border: 1px solid #ffffff;
+  height: 1rem;
+  width: 6rem; 
+  padding: 1rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row; 
 }
 
 .site-box-icon {
