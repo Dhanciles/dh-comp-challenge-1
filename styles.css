@@ -85,7 +85,7 @@ article {
 }
 
 .bio-box-buttons {
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   height: 1rem;
   width: 6rem; 
   padding: 1rem;
@@ -94,6 +94,8 @@ article {
 .buttons-container {
   display: flex;
   flex-direction: row; 
+  justify-content: space-between;
+  width: 18rem 
 }
 
 .site-box-icon {
