@@ -19,7 +19,7 @@ article {
 }
  h1 {
   font-weight: 800;
-  font-size: 2rem;  
+  font-size: 1.75rem;  
  }
 
  p {
@@ -75,9 +75,9 @@ article {
  }
 
  .bio {
-  margin-bottom: 2rem; 
-  margin-top: 2rem;
-  font-size: 2rem;  
+  margin-bottom: 1rem; 
+  margin-top: 1rem;
+  font-size: 1.25rem;  
  }
 
 /* Site Box Icons */
@@ -141,13 +141,78 @@ article {
 }
 
 .direction-arrows {
-  margin: 35rem 2rem 0 2rem;
+  margin: 30rem 2rem 0 2rem;
   opacity: 0.5;  
   height: 3rem; 
   width: 3rem; 
 }
 
 /* Media Queries */
-/*@media screen and (max-width)  {
+@media screen and (max-width: 1595px) {
+  .site-box {
+    font-size: 1.25rem;
+  }
+
+  .site-box-icon {
+    height: 4rem; 
+    width: 4rem;
+  }
   
-}*/
+  .bio {
+    margin-bottom: 1.25rem; 
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+  }
+
+  .bio-box-buttons {
+  border: 3px solid #ffffff;
+  height: 1.25rem;
+  font-size: 1.25rem; 
+  }
+} 
+
+@media screen and (max-width: 1230px) {
+  .site-box {
+    font-size: 1.25rem;
+  }
+
+  .site-box-icon {
+    height: 3.5rem; 
+    width: 3.5rem;
+  }
+  
+  .bio {
+    margin-bottom: 1rem; 
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .bio-box-buttons {
+  border: 2.5px solid #ffffff;
+  height: 1rem;
+  font-size: 1rem; 
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
