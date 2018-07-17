@@ -276,7 +276,26 @@ article {
   }
 
   .site-box-icon {
+    height: 2.5vh; 
+    width: 6vw; 
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .grid3 { 
+    display: none;
+  }
+  
+  .bio-box-buttons {
+    display: none;
+  }
+
+  .bio-box-icons {
+    display: none;
+  }
+
+  .site-box-icon {
     height: 4vh; 
-    width: 5vw; 
+    width: 8vw; 
   }
 }
