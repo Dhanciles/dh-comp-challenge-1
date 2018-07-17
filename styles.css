@@ -77,7 +77,7 @@ article {
  .bio {
   margin-bottom: 1rem; 
   margin-top: 1rem;
-  font-size: 1.25rem;  
+  font-size: 1rem;  
  }
 
 /* Site Box Icons */
@@ -251,18 +251,24 @@ article {
   }
   
   .grid3 { 
-    height: 100%;
+    height: 80%;
   }
 
   .bio {
     display: none;
   }
 
+  .bio-box {
+    height: 20rem; 
+  }
+
   .bio-box-buttons {
     border: none; 
   }
    .direction-arrows {
-    margin: 30rem 2rem 0 2rem;
+    margin: 25rem 2rem 0 2rem;
+    height: 40px 
+    width: 20px; 
   }
 
   .image-indicator {
@@ -270,14 +276,14 @@ article {
   }
 
    .site-box {
-    height: 15vh;
-    font-size: 1rem; 
+    height: 30rem;
+    font-size: 0.5rem;
     padding: 0;
   }
 
   .site-box-icon {
-    height: 2.5vh; 
-    width: 6vw; 
+    height: 10px; 
+    width: 20px; 
   }
 }
 
