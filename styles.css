@@ -259,7 +259,7 @@ article {
   }
 
   .bio-box {
-    display: none; 
+    height: 20rem; 
   }
 
   .bio-box-buttons {
@@ -277,7 +277,7 @@ article {
 
    .site-box {
     height: 30rem;
-    font-size: 0.5rem; 
+    font-size: 0.5rem;
     padding: 0;
   }
 
